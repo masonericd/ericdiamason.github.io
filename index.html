@@ -1,73 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eric Dia Mason – Portfolio</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Portfolio and professional profile of Eric Dia Mason – Data Engineering & IT Solutions Expert.">
+    <meta property="og:title" content="Eric Dia Mason – Portfolio">
+    <meta property="og:description" content="Data Engineering • Oracle APEX • Cloud • IT Management">
+    <meta property="og:type" content="website">
 
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f5f7fa;
+            background: #0d1117;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             text-align: center;
-            color: #333;
         }
 
         .container {
-            max-width: 500px;
+            max-width: 600px;
             padding: 20px;
         }
 
         h1 {
-            font-size: 28px;
+            font-size: 2.3rem;
+            font-weight: bold;
             margin-bottom: 10px;
-            color: #1a73e8;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: normal;
+            color: #58a6ff;
+            margin-bottom: 30px;
         }
 
         p {
-            font-size: 16px;
-            margin-bottom: 25px;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #c9d1d9;
         }
 
-        a.button {
+        .redirect {
+            font-size: 0.9rem;
+            margin-top: 30px;
+            opacity: 0.7;
+        }
+
+        .button {
             display: inline-block;
-            padding: 12px 22px;
-            background-color: #1a73e8;
+            padding: 12px 25px;
+            background: #238636;
             color: white;
             text-decoration: none;
             border-radius: 6px;
-            font-size: 16px;
-            transition: 0.3s;
+            font-size: 1rem;
+            transition: background 0.2s ease;
         }
 
-        a.button: hover {
-            background-color: #0c5acc;
+        .button:hover {
+            background: #2ea043;
         }
     </style>
 
-    <!-- Automatic Redirect -->
+    <!-- Auto Redirect After 3 Seconds -->
     <script>
-        setTimeout(function() {
+        setTimeout(function () {
             window.location.href = "https://g7ea006fe7cafd1-libangodwh.adb.me-jeddah-1.oraclecloudapps.com/ords/r/ericportfolio/portfolio/home";
-        }, 1500); // Delay 1.5 seconds for better UX
+        }, 3000);
     </script>
-</head>
 
+</head>
 <body>
     <div class="container">
         <h1>Eric Dia Mason</h1>
-        <p>Redirecting to my cloud portfolio...</p>
-        
+        <h2>Data Engineering • Cloud • Oracle APEX • IT Management</h2>
+
+        <p>Welcome to my professional portfolio.</p>
+        <p>You will be redirected shortly.</p>
+
         <a class="button" href="https://g7ea006fe7cafd1-libangodwh.adb.me-jeddah-1.oraclecloudapps.com/ords/r/ericportfolio/portfolio/home">
-            Enter Portfolio Manually
+            Go to Portfolio Now
         </a>
+
+        <p class="redirect">Redirecting in 3 seconds…</p>
     </div>
 </body>
 </html>
-
